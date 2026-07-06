@@ -1,0 +1,20 @@
+﻿# Secrets - NEVER upload
+db.php
+payment_config.php
+ngrok.yml
+*.log
+
+# Backups (local only)
+*_BACKUP*
+*_BACKUP_FULL*
+admin_BACKUP_FULL/
+dashboard_BACKUP.php
+
+# Junk
+*.zip
+index2.html
+
+# System files
+Thumbs.db
+.DS_Store
+config/db_live.php

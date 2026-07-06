@@ -1,0 +1,251 @@
+/* Local styles for the Diagnostic Centre site */
+
+body{
+    font-family:'Poppins', sans-serif;
+}
+
+.hero{
+    background:#eef7ff;
+}
+
+.hero h1{
+    color:#0d6efd;
+}
+
+section{
+    padding:80px 0;
+}
+
+/* Card Hover Effect */
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Gallery Images */
+
+.card-img-top{
+    height:250px;
+    object-fit:cover;
+}
+
+/* Hero Carousel Images (Reduced height) */
+
+.hero-img {
+    width: 100%;
+    height: 520px;
+    object-fit: contain;
+    background-color: #ffffff;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .hero-img {
+        height: 320px;
+    }
+}
+
+
+
+/* Additional Styling */
+
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.btn{
+    border-radius:30px;
+}
+
+footer{
+    background:#212529;
+}
+
+/* Top Notice Marquee */
+.notice-marquee{
+    overflow:hidden;
+}
+
+.notice-marquee .marquee-content{
+    display:flex;
+    width:max-content;
+    white-space:nowrap;
+    overflow:hidden;
+    animation: marquee-scroll 20s linear infinite;
+}
+
+@keyframes marquee-scroll{
+    0%{ transform: translateX(0); }
+    100%{ transform: translateX(-50%); }
+}
+
+/* Quick action card icons — small circular badge */
+.action-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.action-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 16px;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+
+.action-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0,0,0,.08);
+}
+
+/* ===== Modern polish layer ===== */
+
+/* Smooth font + base color */
+body {
+  color: #1f2937;
+  background: #fcfdff;
+}
+
+/* Service cards — replace heavy blue bar with soft circular icon badge */
+.service-icon {
+  width: 56px !important;
+  height: 56px !important;
+  border-radius: 50% !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  background: #e8f0ff !important;
+  color: #1d4ed8 !important;
+  font-size: 22px;
+  box-shadow: 0 6px 16px rgba(29,78,216,.12);
+}
+
+.service-card {
+  border: 1px solid #eef1f6 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 6px 20px rgba(15,23,42,.04);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.service-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(15,23,42,.10);
+}
+
+/* Why Choose Us — soft round feature icons */
+.feature-icon, .feature-icon-small {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg,#e8f0ff,#eafff4);
+  color: #1d4ed8;
+  font-size: 24px;
+}
+.feature-card {
+  background: #fff;
+  border-radius: 18px;
+  border: 1px solid #eef1f6;
+  box-shadow: 0 6px 20px rgba(15,23,42,.04);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(15,23,42,.10);
+}
+
+/* Stat boxes — softer, modern */
+.stat-box {
+  border: 1px solid #eef1f6 !important;
+  border-radius: 18px !important;
+  box-shadow: 0 6px 20px rgba(15,23,42,.04);
+  transition: transform .18s ease, box-shadow .18s ease;
+}
+.stat-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(15,23,42,.09);
+}
+.stat-value {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #1d4ed8;
+}
+.stat-icon {
+  font-size: 26px;
+  color: #1d4ed8;
+}
+
+/* Action icon badges — add soft shadow to match */
+.action-icon {
+  box-shadow: 0 6px 16px rgba(15,23,42,.10);
+}
+
+/* Section titles — modern accent underline */
+.section-title {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+.section-title::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  width: 54px;
+  height: 4px;
+  border-radius: 4px;
+  background: linear-gradient(90deg,#1d4ed8,#22d3ee);
+}
+
+/* Notice + testimonial + contact cards — unify rounded soft look */
+.notice-card, .testimonial-card, .contact-card, .map-card, .info-box, .badge-box {
+  border-radius: 16px !important;
+}
+
+/* Buttons — subtle lift */
+.btn-primary {
+  box-shadow: 0 8px 20px rgba(29,78,216,.18);
+}
+.btn-primary:hover {
+  transform: translateY(-1px);
+}
+
+/* Hero headline band */
+.hero-band {
+  background: linear-gradient(135deg, #f0f7ff 0%, #eafff4 100%);
+  border-radius: 22px;
+  margin-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.hero-title {
+  font-weight: 800;
+  font-size: 2.6rem;
+  color: #0f2a52;
+  line-height: 1.15;
+}
+.hero-subtitle {
+  font-size: 1.15rem;
+  color: #475569;
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 768px) {
+  .hero-title { font-size: 1.8rem; }
+  .hero-subtitle { font-size: 1rem; }
+}
+
+
+
+
