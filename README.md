@@ -2,7 +2,7 @@
 
 A full-stack web application for a diagnostic centre, built with PHP and MySQL. The platform lets patients book appointments, securely download their reports, and make online payments, while giving administrators a complete dashboard to manage the centre's day-to-day operations.
 
-🔗 **Live Site:** [burdwanscancentre.infinityfreeapp.com](https://burdwanscancentre.infinityfreeapp.com)
+🔗 **Live Site:** [diagnosticscancentre.freepage.cc](http://diagnosticscancentre.freepage.cc)
 
 ---
 
